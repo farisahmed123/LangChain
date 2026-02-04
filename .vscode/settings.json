@@ -1,0 +1,24 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.indexing": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.tabCompletion": "on",
+    "editor.inlineSuggest.enabled": true,
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "top",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.tabCompletion": "on",
+        "editor.wordBasedSuggestions": "currentDocument"
+    },
+    "[jupyter]": {
+        "editor.suggest.preview": true,
+        "editor.tabCompletion": "on"
+    }
+}
